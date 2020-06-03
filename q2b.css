@@ -1564,3 +1564,7 @@ q2
 	max-width: 375px;  
 	}
 }
+
+input[type="text"]{ 
+	line-height: 8px; 
+}
