@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Walk events</title>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="q2b.css"/>
+</head>
+<body>
+	<div class="myDiv">
+		<form action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post">
+		<input type="hidden" name="sessionID" value="12345678-09ab-1111-cdef" />
+		<h2>Create New Walk Event</h2>
+		
+		<p>Name <input name="name" size="70"/></p>
+		<p>Date <input name="date" size="70"/></p>
+		<p>Start Time <input name="starttime" size="70"/></p>
+		<p>Meeting Point <input name="meetingpoint" size="70"/></p>
+		<p>Distance (miles) <input name="distance" size="70"/></p>
+		<p>Notes <input name="notes" size="70"/></p>
+		<p><input type="submit" value="Submit" /></p>
+
+</form>
+		<div class="main">
+  <span style="font-size:13px;cursor:pointer" onclick="openNav()">&#9776; Open navigation</span>
+</div>
+
+	</div>
+	<div class="sideMenu">
+	<svg class="Rectangle_44">
+		<rect fill="rgba(0,0,0,1)" id="Rectangle_44" rx="0" ry="0" x="0" y="0" width="175" height="107">
+		</rect>
+	</svg>
+	<div id="Welcome">
+		<span><a href="home.html">Welcome</a></span>
+	</div>
+	<svg class="Rectangle_65">
+		<rect fill="rgba(0,0,0,1)" id="Rectangle_65" rx="0" ry="0" x="0" y="0" width="175" height="107">
+		</rect>
+	</svg>
+	<div id="Members">
+		<span><a href="members.html">Members</a></span>
+	</div>
+	<svg class="Rectangle_66">
+		<rect fill="rgba(0,0,0,1)" id="Rectangle_66" rx="0" ry="0" x="0" y="0" width="175" height="107">
+		</rect>
+	</svg>
+	<div id="Walk_Events_">
+		<span><a href="walk_events.html">Walk<br/>Events</a></span>
+	</div>
+	<svg class="Rectangle_67">
+		<rect fill="rgba(0,0,0,1)" id="Rectangle_67" rx="0" ry="0" x="0" y="0" width="175" height="107">
+		</rect>
+	</svg>
+	<div id="News">
+		<span><a href="news.html">News</a></span>
+	</div>
+	<svg class="Rectangle_68">
+		<rect fill="rgba(0,0,0,1)" id="Rectangle_68" rx="0" ry="0" x="0" y="0" width="175" height="107">
+		</rect>
+	</svg>
+	<div id="Other_Events">
+		<span><a href="other_events.html">Other<br/>Events</a></span>
+	</div>
+	<svg class="Rectangle_69">
+		<rect fill="rgba(0,0,0,1)" id="Rectangle_69" rx="0" ry="0" x="0" y="0" width="175" height="107">
+		</rect>
+	</svg>
+	<div id="Announcements">
+		<span><a href="Announcements.html">Announcements</a></span>
+	</div>
+	<svg class="Rectangle_70">
+		<rect fill="rgba(0,0,0,1)" id="Rectangle_70" rx="0" ry="0" x="0" y="0" width="175" height="107">
+		</rect>
+	</svg>
+	<svg class="Rectangle_71">
+		<rect fill="rgba(0,0,0,1)" id="Rectangle_71" rx="0" ry="0" x="0" y="0" width="175" height="19">
+		</rect>
+	</svg>
+	<div id="Log_out">
+		<span><a href="index.html">Log out</a></span>
+	</div>
+		<div id="OU_WALKING_CLUB">
+		<span>OU WALKING CLUB</span>
+	</div>
+	<div id="Walk_events_ck">
+		<span>Walk events</span>
+	</div>
+		</div>
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Welcome</a>
+  <a href="#">Members</a>
+  <a href="#">Walk Events</a>
+  <a href="#">News</a>
+  <a href="#">Other Events</a>
+  <a href="#">Announcements</a>
+  <a href="#">Log out</a>
+
+
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+</body>
+</html>
